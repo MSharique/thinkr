@@ -1,0 +1,63 @@
+#container {
+	height:500px;
+	background-color:#2574A9;
+	position:relative;
+}
+
+#container #photo{
+	position:absolute;
+	height:400px;
+	width:400px;
+	margin-top:30px;
+	margin-left:50px;
+	background-color:#CCC;
+	webkit-transition: all .6s ease; /* safari & chrome */
+	-moz-transition: all .6s ease; /* firefox */
+	-o-transition: all .6s ease; /* opera */
+	transition: all .6s ease;
+}
+
+#container #photo:hover{
+	width:900px;
+	webkit-transition: all .6s ease; /* safari & chrome */
+	-moz-transition: all .6s ease; /* firefox */
+	-o-transition: all .6s ease; /* opera */
+	transition: all .6s ease;
+}
+
+#container .theme {
+	position:absolute;
+	margin-left:50px;
+	margin-top:50px;
+	height:150px;
+	width:150px;
+	overflow:hidden;
+	-webkit-transition: all .75s ease;
+	-moz-transition: all .75s ease;
+	-o-transition: all .75s ease;
+	transition: all .75s ease;
+}
+
+#container .theme .image {
+	width:150px;
+	height:150px;
+	float:left;
+	position:absolute;
+	background:url(background-fb.jpg) no-repeat;
+}
+
+#container .theme .detail {
+	margin-left:150px;
+	width:600px;
+	height:150px;
+	background-color:#903;
+	float:left;
+}
+
+#container .theme:hover{
+	width:750px;
+	-webkit-transition: all .6s ease;
+	-moz-transition: all .6s ease;
+	-o-transition: all .6s ease;
+	transition: all .6s ease;
+}

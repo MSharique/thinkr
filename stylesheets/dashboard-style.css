@@ -1,0 +1,31 @@
+@font-face{
+	font-family:Quicksand;
+	src:url(fonts/Quicksand-Regular.otf);
+}
+
+#head{
+	position:absolute;
+	background-color:#3b3e43;
+	border-radius:7px;
+	width:75%;
+	height:10%;
+	left:21%;
+	top:5%;
+}
+
+#container {
+	color:#F7F7F5;
+	border-radius:4px;
+	width:71%;
+	min-width:650px;
+	margin-left:270px;	
+	margin-top:115px;
+	color:#FFF;
+	padding:35px;
+	background-color:#3a9bc8;
+}
+
+#container #idea_head{
+	font-family:Quicksand;
+	font-size:2.3em;
+}

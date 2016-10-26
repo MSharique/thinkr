@@ -1,0 +1,88 @@
+
+
+@font-face{
+	font-family:"Century Gothic";
+	src:url(fonts/GOTHIC.TTF);
+}
+
+@font-face{
+	font-family:Calibri;
+	src:url(fonts/calibri.ttf);
+}
+
+#aboutUs {
+	position:absolute;
+	top:12%;
+	text-align:justify;
+	width:54%;
+	left:6%;
+	height:90%;
+	font-size:21px;
+	font-family:Calibri;
+}
+
+#arrow2{
+	position:absolute;
+	height:45px;
+	width:80px;
+	bottom:6%;
+	left:72.5%;
+	cursor:pointer;
+}
+
+.banner{
+	position:absolute;
+	width:8%;
+	background-color:#036;
+	top:0%;
+	overflow:hidden;
+	box-shadow: 5px 3px 5px #282828;
+}
+
+#think{ height:40%; right:25%;}
+#post{ height:62%; right:15%;}
+#win{ height:85%; right:5%;}
+
+.bannerText {
+	position:absolute;
+	bottom:10px;
+	width:100%;
+	padding-bottom:10px;
+	text-align:center;
+	font-family:"Century Gothic";
+	font-size:1.5em;
+	color:#FFF;
+	font-weight:bolder;
+}
+
+.line{
+	position:absolute;
+	height:0%;
+	left:7px;
+	border-right:4px solid #E10016;
+}
+
+.hrline{
+	position:absolute;
+	bottom:8px;
+	left:100%;
+	width:100%;
+	border-top:4px solid #E10016;
+}
+
+.banner:hover > .line{
+	height:100%;
+	-webkit-transition:all 1.2s ease;
+	-moz-transition:all 1.2s ease;
+	-ms-transition:all 1.2s ease;
+	-o-transition:all 1.2s ease;
+}
+
+.banner:hover > .hrline{
+	left:0%;
+	-webkit-transition:all 1.2s ease;
+	-moz-transition:all 1.2s ease;
+	-ms-transition:all 1.2s ease;
+	-o-transition:all 1.2s ease;
+}
+

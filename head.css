@@ -1,0 +1,106 @@
+a{
+	text-decoration:none;
+	color:#FFF;
+}
+
+#header {
+	height:255px;
+	position:relative;
+}
+
+#header #thinker {
+	float: left;
+    font-family: MammaGamma;
+    font-size: 114px;
+    letter-spacing: 2px;
+    margin-left: 80px;
+    margin-top: 37px;
+    position: absolute;
+}
+
+#header #head_image {
+	height: 231px;
+    margin-left: 445px;
+    position: absolute;
+    width: 585px;
+}
+
+#menu #elements {
+	color:#FEFEFE;
+	font-size:21px;
+	font-family:"Century Gothic";
+	padding: 18px 35px;
+	float:left;	
+}
+
+#header .button {
+	position:absolute;
+	height:50px;
+	width:402px;
+	border-radius: 0px 0px 25px 25px;
+	float:left;
+	background-color:#2574A9;
+	margin-left:1115px;
+	overflow:hidden;
+	webkit-transition: all .6s ease; /* safari & chrome */
+	-moz-transition: all .6s ease; /* firefox */
+	-o-transition: all .6s ease; /* opera */
+	transition: all .6s ease;
+}
+
+#header .button:hover{
+	height:190px;
+	webkit-transition: all .6s ease; /* safari & chrome */
+	-moz-transition: all .6s ease; /* firefox */
+	-o-transition: all .6s ease; /* opera */
+	transition: all .6s ease;
+}
+
+#header .button #facebook {
+	position:absolute;
+	top:20px;
+	width:402px;
+	text-align:center;
+	color:#FFF;
+	font-size:25px;
+	font-family:"Century Gothic";
+}
+
+#header .button #gmail {
+	position:absolute;
+	top:77px;
+	text-align:center;
+	color:#FFF;
+	width:402px;
+	font-size:25px;
+	font-family:"Century Gothic";
+}
+
+#header .button #login {
+	background-color:#2574A9;
+	position:absolute;
+	bottom:0px;
+	text-align:center;
+	color:#FFF;
+	height:40px;
+	width:402px;
+	border-radius: 0px 0px 25px 25px;
+	font-size:20px;
+	font-family:"Century Gothic";
+}
+
+#header .button #facebook_logo {
+	position:absolute;
+	margin-top:20px;
+	margin-left:47px;
+	height:38px;
+	width:37px;	
+}
+
+#header .button #gmail_logo {
+    height: 36px;
+    margin-left: 60px;
+    margin-top: 57px;
+    position: absolute;
+    width: 52px;
+}

@@ -1,0 +1,36 @@
+
+
+@font-face{
+	font-family:Quicksand;
+	src:url(fonts/Quicksand-Regular.otf);
+}
+
+@font-face{
+	font-family:Calibri;
+	src:url(fonts/calibri.ttf);
+}
+
+#ruleBoard{
+	position:absolute;
+	top:17%;
+	left:6.5%;
+	border-radius: 5px 5px 0px 0px;
+	max-width:81%;
+	min-width:81%;
+	color:#FFF;
+	font-size:1.5em;
+	font-family:Calibri;
+	padding:3%;
+	background-color:#3a9bc8;
+}
+
+#ruleBoard span{
+	font-size:1.8em;
+	font-family:Quicksand;
+}
+
+#ruleBoard ul{ margin-left:20px;}
+
+#ruleBoard ul li{
+	padding-top:10px;
+}

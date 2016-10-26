@@ -1,0 +1,97 @@
+
+@font-face{
+	font-family:Quicksand;
+	src:url(stylesheets/fonts/Quicksand-Regular.otf);
+}
+
+@font-face{
+	font-family:Calibri;
+	src:url(fonts/calibri.ttf);
+}
+
+#container #idea_head{
+	font-family:Quicksand;
+	font-size:2.3em;
+}
+
+form{
+	position:relative;
+	margin-top:50px;
+	
+}
+
+form td{ 
+	color:#FFF; 
+	font-family:Calibri; 
+	font-size:18px;
+	padding-right:13px; 
+	padding-left:13px;
+	padding-bottom:0px;
+	padding-top:26px; 	
+	margin-top:10px;
+}
+
+form .label{
+	text-align:right;
+}
+
+form td input{
+	background-color:#FFF;
+	font-family:Calibri;
+	font-size:17px;
+	border:none;
+	border-radius:5px;
+	padding:5px 5px;
+	height:34px;
+	width:275px;
+	margin-left:18px;
+}
+
+form td .genderRadio{
+	width:15px;
+	height:15px;
+}
+form .button{
+	display:block;
+	height:45px;
+	width:170px;
+	padding:5px;
+	margin-top:20px;
+	background:none;
+	color:#FFF;
+	font-size:20px;
+	font-family:Quicksand;
+	border:3px solid #FFFFFF;
+	border-radius:5px;
+	cursor:pointer;
+	
+	-webkit-transition:all .5s ease;
+	-moz-transition:all .5s ease;
+	-ms-transition:all .5s ease;
+	-o-transition:all .5s ease;
+	transition:all .5s ease;
+}
+
+form .button:hover{
+
+	background-color:#FFF;
+	color:#3a9bc8;
+
+	-webkit-transition:all .5s ease;
+	-moz-transition:all .5s ease;
+	-ms-transition:all .5s ease;
+	-o-transition:all .5s ease;
+	transition:all .5s ease;
+}
+
+form .error{
+	padding:0px;
+	color:#F2E113;
+	margin-left:18px;
+	text-align:right;
+	font-size:17px;
+}
+
+form .error span{
+	margin-right:20px;
+}

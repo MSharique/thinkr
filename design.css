@@ -1,0 +1,208 @@
+
+@font-face{
+	font-family:Quicksand;
+	src:url(stylesheets/fonts/Quicksand-Regular.otf);
+}
+
+@font-face{
+	font-family:"Century Gothic";
+	src:url(stylesheets/fonts/GOTHIC.TTF);
+}
+
+#front_page {
+	position:absolute;
+	width:100%;
+	height:100%;
+	min-width:1100px;
+	overflow:hidden;
+}
+
+#loading{
+	margin-top:300px;
+	font-family:Quicksand;
+	font-size:2em;
+	visibility:visible;
+}
+
+#arrow1{
+	position:absolute;
+	height:45px;
+	width:80px;
+	bottom:40px;
+	left:130px;
+	cursor:pointer;o
+	
+}
+
+#f2_poster {
+	position:absolute;
+	width:100%;
+	min-width:1100px;
+	height:100%;
+	overflow:hidden;
+	background-color:#F2E113;
+	top:100%;
+}
+
+#f3_theme{
+	position:absolute;
+	height:100%;
+	width:100%;
+	min-width:1100px;
+	top:200%;
+	background-color:#282828;
+	overflow:hidden;
+}
+
+#f4_timeline{
+	position:absolute;
+	width:100%;
+	min-width:1100px;
+	height:100%;
+	top:300%;
+	z-index:5;
+	overflow:hidden;
+}
+
+#t{
+	top:30%;
+	left:-30%;
+	position:absolute;
+	z-index:-1;	
+	transform: scale(0.75,0.75);
+}
+
+#h{
+	top:100%;
+	left:15%;
+	position:absolute;
+	z-index:-1;	
+	transform: scale(0.75,0.75);
+}
+
+#i{
+	bottom:100%;
+	left:31%;
+	position:absolute;
+	z-index:-1;	
+	transform: scale(0.75,0.75);
+}
+
+#n{
+	top:100%;
+	left:46%;
+	position:absolute;
+	z-index:-1;	
+	transform: scale(0.75,0.75);
+}
+
+#k{
+	bottom:100%;
+	left:60%;
+	position:absolute;
+	z-index:-1;	
+	transform: scale(0.75,0.75);
+}
+
+#r{
+	top:46%;
+	right:-25%;
+	position:absolute;
+	z-index:-1;	
+	transform: scale(0.75,0.75);
+}
+
+#footer {
+	position:absolute;
+	height:135px;
+	width:100%;
+	min-width:1100px;
+	top:400%;
+	overflow:hidden;
+	background-color:#282828;
+}
+
+#front_page #login {
+	position:absolute;
+	top:14%;
+	width:17%;
+	height:0%;
+	right:0%;
+	border-radius: 0 0 8px 8px;
+	background-color:#000;
+	opacity:0.6;
+	overflow:hidden;
+}
+
+#front_page #login #facebook {
+	margin-left:22%;
+	margin-top:7%;
+	height:45%;
+}
+
+#front_page #login #gmail {
+	margin-left:20%;
+	height:42%;
+}
+
+#front_page #content {
+	font-size:2.4em;
+	font-family:Quicksand;
+	position:absolute;
+	right:10%;
+	bottom:5%;
+	z-index:-6;
+}
+
+#front_page #contenthide{
+	position:absolute;
+	bottom:5%;
+	height:10%;
+	width:100%;
+	right:0%;
+	background-color:#FFF;
+	z-index:-5;
+}
+
+#footer #details {
+	float:right;
+	text-align:right;
+	margin-right:20px;
+	margin-top:-69px;
+	color:#FFF;
+	font-family:"Century Gothic";
+	font-size:18px;
+}
+
+#footer #copyright {
+	text-align:center;
+	margin-top:32px;
+	color:#FFF;
+	width:290px;
+	font-family:"Century Gothic";
+	font-size:18px;
+}
+
+#footer #returnTop {
+	margin-top:15px;
+	color:#FFF;
+	width:130px;
+	font-family:"Century Gothic";
+	font-size:18px;
+	cursor:pointer;
+}
+
+#footer #thinkr {
+	float:left;
+	margin-left:20px;
+	margin-top:60px;
+	color:#FFF;
+	font-family:MammaGamma;
+	font-size:4.2em;
+}
+
+#fb_like{
+	position:absolute;
+	float:left;
+	top:150px;
+}

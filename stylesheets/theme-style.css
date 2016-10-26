@@ -1,0 +1,177 @@
+
+
+@font-face{
+	font-family:"Century Gothic";
+	src:url(fonts/GOTHIC.TTF);
+}
+
+@font-face{
+	font-family:Raleway;
+	src:url(fonts/Raleway-Regular.otf);
+}
+
+#container{
+	width:100%;
+	height:100%;
+	position:absolute;
+	overflow:hidden;
+	background-color:#373737;
+}
+
+#sidePanel{
+	position:absolute;
+	width:18%;
+	min-width:250px;
+	right:0%;
+	height:100%;
+	background-color:#FFF;
+	box-shadow: -3px 3px 9px #000000;
+	z-index:2;
+}
+
+#arrow3{
+	position:absolute;
+	height:37px;
+	width:68px;
+	bottom:2%;
+	left:35%;
+	cursor:pointer;
+}
+
+.imageTags{
+	height:376px;
+	width:260px;
+	font-size:1.4em;
+	font-family:Raleway;
+	color:#373737;
+	
+	position:absolute;
+	z-index:3;
+	top:0px;
+	right:0;
+	bottom:0;	
+	margin:auto;
+}
+
+.imageTags ul{
+	position:absolute;
+	right:-4%;
+	width:206px;
+	list-style:none;
+	
+	-webkit-margin-before: 0px;
+	-webkit-margin-after: 0px;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	-webkit-padding-start: 0px;
+	
+	-moz-margin-before: 0px;
+	-moz-margin-after: 0px;
+	-moz-margin-start: 0px;
+	-moz-margin-end: 0px;
+	-moz-padding-start: 0px;
+	
+	-ms-margin-before: 0px;
+	-ms-margin-after: 0px;
+	-ms-margin-start: 0px;
+	-ms-margin-end: 0px;
+	-ms-padding-start: 0px;
+	
+	-o-margin-before: 0px;
+	-o-margin-after: 0px;
+	-o-margin-start: 0px;
+	-o-margin-end: 0px;
+	-o-padding-start: 0px;
+}
+
+.imageTags li{
+	display:block;
+	height:50px;
+	width:180px;
+	padding:12px 50px;
+	text-align:left;
+	cursor:default;
+	transition:all .3s ease;
+}
+
+.imageTags li:hover{
+	transform: scale(1.18,1.18);
+	transition:all .3s ease;
+}
+
+.sliderImg {
+	position:absolute;
+	height:100%;
+	width:82%;
+	right:100%;
+	background-color:#4878AC;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-ms-size: cover;
+	-o-background-size: cover;
+}
+
+#society{
+	background:url(society.jpg) center center no-repeat;
+}
+
+#healthcare{
+	background:url(healthcare.jpg) center center no-repeat;
+}
+
+#finance{
+	background:url(finance.jpg) center center no-repeat;
+}
+
+#lifestyle{
+	background:url(lifestyle.jpg) center center no-repeat;
+}
+
+#education{
+	background:url(education.jpg) center center no-repeat;
+}
+
+#others{
+	background:url(others.jpg) center center no-repeat;
+}
+
+
+.sliderImg .imageDetails {
+	position:absolute;
+	bottom:0%;
+	height:18%;
+	width:100%;
+	
+	background-color:rgba(0,0,0,0.6);
+	
+	text-align:center;
+	font-family:"Century Gothic";
+	color:#FFF;
+	font-size:160%;
+}
+
+#background {
+	width:45%;
+	height:70%;
+	position:absolute;
+	top:15%;
+	bottom:0;
+	left:15%;
+	margin:auto;
+}
+
+
+#background .theme_image{
+	position:absolute;
+	height:100%;
+}
+
+#background2 {
+	width:15%;
+	height:20%;
+	position:absolute;
+	top:40%;
+	bottom:0;
+	left:60%;
+	margin:auto;
+}

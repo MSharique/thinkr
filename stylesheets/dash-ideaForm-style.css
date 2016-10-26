@@ -1,0 +1,113 @@
+
+
+@font-face{
+	font-family:Calibri;
+	src:url(fonts/calibri.ttf);
+}
+
+@font-face{
+	font-family:Quicksand;
+	src:url(fonts/Quicksand-Regular.otf);
+}
+
+
+form{
+	position:relative;
+	margin-top:50px;	
+}
+
+form td{
+	color:#FFF; 
+	font-family:Calibri; 
+	font-size:18px; 
+	padding:13px; 	
+	margin-top:10px;	
+}
+
+form .label{
+	text-align:right;
+}
+
+form td .chkBox{
+	width:15px;
+	height:15px;
+}
+
+form td .ideaSum{
+	width:275px;
+	height:150px;
+	font-family:Calibri;
+	font-size:18px;
+	padding-left:7px;
+}
+
+form td .chkBoxLabel{
+	margin-left:10px;
+	
+}
+
+form td input{
+	background-color:#FFF;
+	font-family:Calibri;
+	font-size:17px;
+	border:none;
+	border-radius:5px;
+	padding:5px 5px;
+	height:34px;
+	width:275px;
+	margin-left:18px;
+}
+
+form td .member{
+	background-color:#FFF;
+	font-family:Calibri;
+	font-size:18px;
+	border:none;
+	border-radius:5px;
+	padding:5px 5px;
+	height:34px;
+	width:275px;
+	margin-left:18px;
+}
+
+form .ideaSum{
+	margin-left:18px;
+}	
+
+form #charac{
+	margin-right:43px;
+	float:right;
+}
+
+form .button{
+	display:block;
+	height:45px;
+	width:170px;
+	padding:5px;
+	margin-top:20px;
+	background:none;
+	color:#FFF;
+	font-size:20px;
+	font-family:Quicksand;
+	border:3px solid #FFFFFF;
+	border-radius:5px;
+	cursor:pointer;
+	
+	-webkit-transition:all .5s ease;
+	-moz-transition:all .5s ease;
+	-ms-transition:all .5s ease;
+	-o-transition:all .5s ease;
+	transition:all .5s ease;
+}
+
+form .button:hover{
+
+	background-color:#FFF;
+	color:#3a9bc8;
+
+	-webkit-transition:all .5s ease;
+	-moz-transition:all .5s ease;
+	-ms-transition:all .5s ease;
+	-o-transition:all .5s ease;
+	transition:all .5s ease;
+}

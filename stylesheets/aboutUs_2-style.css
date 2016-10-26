@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* CSS Document */
+
+.aboutUs{
+	margin-top:120px;
+	text-align:justify;
+	padding:15px;
+	width:88%;
+	min-width:800px;
+	color:#282828;
+}
+
+.line{
+	margin-top:12px;
+	width:88%;
+	min-width:800px;
+	border-bottom:3px solid #282828;
+}
+
+.heading{
+	min-width:775px;
+	padding-bottom:70px;
+	font-size:2.4em;
+	font-family:Quicksand;
+}
+
+.aboutUs p{
+	font-family:Calibri;
+	font-size:1.28em;
+	/*background-color:#CF6;*/
+	display: block;
+	
+	-webkit-margin-before: 10px;
+	-webkit-margin-after: 10px;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	
+	
+	-moz-margin-before: 10px;
+	-moz-margin-after: 10px;
+	-moz-margin-start: 0px;
+	-moz-margin-end: 0px;
+	
+	
+	-ms-margin-before: 10px;
+	-ms-margin-after: 10px;
+	-ms-margin-start: 0px;
+	-ms-margin-end: 0px;
+	
+	
+	-o-margin-before: 10px;
+	-o-margin-after: 10px;
+	-o-margin-start: 0px;
+	-o-margin-end: 0px;
+
+}
+
+.team{
+	margin-top: 50px;
+	text-align:justify;
+	padding:15px;
+	padding-bottom:35px;
+	width:88%;
+	min-width:800px;
+	color:#282828;
+}
+
+.members{
+	width:775px;
+	min-width:775px;
+}
+
+.member_img_first{ 
+	position:relative;
+	float:left;
+	min-width:225px;
+	max-width:225px;
+	min-height:240px;
+	max-height:240px;
+	background-color:#603;
+	margin-left:0px;
+	margin-top:70px;
+}
+
+.member_img{
+	position:relative;
+	float:left;
+	min-width:225px;
+	max-width:225px;
+	min-height:240px;
+	max-height:240px;
+	background-color:#603;
+	margin-left:50px;
+	margin-top:70px;
+}
+
+#abeer{
+	background:url(IMAG2643.jpg) center center no-repeat;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-ms-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+}
+
+.member_img_first:hover > .member_detail{
+	visibility:visible;
+}
+
+.member_detail{
+	height:240px;
+	background:rgba(0,0,0,0.5);
+	position:absolute;
+	width:225px;
+	font-size:20px;
+	font-family:Raleway;
+	visibility:hidden;
+	color:#FFF;
+}
+
+.member_detail .des{
+	position:absolute;
+	bottom:18px;
+	width:250px;
+	text-align:center;
+}
+
+
+.member_detail span{
+	font-size:25px;
+}

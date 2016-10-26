@@ -1,0 +1,33 @@
+
+@font-face{
+	font-family:Quicksand;
+	src:url(stylesheets/fonts/Quicksand-Regular.otf);
+}
+
+#t{left:20%;}
+#h{left:33%;}
+#i{left:46%;}
+#n{left:59%;}
+#k{left:72%;}
+#r{left:85%;}
+
+.top{
+	height:55%;
+	width:8%;
+	font-size:450%;
+	font-family:Quicksand;
+	font-weight:bolder;
+	background-color:#3a9bc8;
+	color:#FFF;
+	box-shadow:4px 7px 8px #333333;
+	position:absolute;
+	margin:auto;
+}
+
+.top span{
+	width:100%;
+	text-align:center;
+	position:absolute;
+	bottom:10px;	
+}
+

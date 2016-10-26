@@ -1,0 +1,53 @@
+
+@font-face{
+	font-family:"Century Gothic";
+	src:url(fonts/GOTHIC.TTF);
+}
+
+.step {
+	position:absolute;
+	width: calc(100%/5);
+	min-width:250px;
+	float:left;
+	height:100%;
+	background-color:#3a9bc8;
+	box-shadow: 0px 0px 32px #000000;
+	transition: all .4s ease;
+}
+
+.step .round_info{
+	color:#FFF;
+	font-size:300px;
+	font-family:"Century Gothic";
+	position:absolute;
+	width:100%;
+	top:38%;
+	height:60%;
+	text-align:center;
+	overflow:hidden;
+}
+
+.step .round{
+	color:#FFF;
+	font-size:60px;
+	font-family:"Century Gothic";
+	position:absolute;
+	width:100%;
+	top:20%;
+	text-align:center;
+}
+
+.description{
+	position:absolute;
+	color:#FFF;
+	font-size:27px;
+	font-family:"Century Gothic";
+	background-color:#A74EBA;
+	height:100%;
+	width:96%;
+	
+	padding:2%;
+	text-align:center;
+	bottom:0%;
+	left:100%;
+}

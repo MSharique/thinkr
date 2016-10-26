@@ -1,0 +1,185 @@
+.themes {
+	margin:auto;
+	width:800px;
+	height:700px;
+	background-color:#6CF;
+}
+
+.themes #theme_1 {
+	height:150px;
+	width:400px;
+	background:url(Koala.jpg) no-repeat;
+	float:left;
+	overflow:hidden;
+}
+
+
+.themes #theme_2 {
+	height:150px;
+	width:400px;
+	background-color:#F0F381;
+	float:left;
+	overflow:hidden;
+}
+
+
+.themes #theme_3 {
+	height:400px;
+	width:172px;
+	background-color:#D72424;
+	float:left;
+}
+
+.themes #theme_4 {
+	height:400px;
+	width:456px;
+	background-color: #32BD2B;
+	float:left;
+}
+
+.themes #theme_5 {
+	height:400px;
+	width:172px;
+	background-color:#D72424;
+	float:left;
+	overflow:hidden;
+}
+
+
+.themes #theme_6 {
+	height:150px;
+	width:400px;
+	background-color:#E6EB21;
+	float:left;
+	overflow:hidden;
+}
+
+.themes #theme_7 {
+	height:150px;
+	width:400px;
+	background-color:#F0F381;
+	float:left;
+	overflow:hidden;
+}
+
+.themes #theme_1 .description{
+	margin-top:150px;
+	height:150px;
+	width:400px;
+	background-color:#000;
+	opacity:0.7;
+	float:left;
+	-webkit-transition:all .4s ease;
+	-moz-transition:all .4s ease;
+	-o-transition:all .4s ease;
+	transition:all .4s ease;
+}
+
+.themes #theme_1:hover > .description{
+	margin-top:0px;
+	-webkit-transition:all .6s ease;
+	-moz-transition:all .6s ease;
+	-o-transition:all .6s ease;
+	transition:all .6s ease;
+}
+
+.themes #theme_2 .description{
+	margin-left:400px;
+	background-color:#000;
+	opacity:0.7;
+	height:150px;
+	width:400px;	
+	-webkit-transition:all .6s ease;
+	-moz-transition:all .6s ease;
+	-o-transition:all .6s ease;
+	transition:all .6s ease;
+}
+
+.themes #theme_2:hover > .description{
+	margin-left:0px;
+	-webkit-transition:all .6s ease;
+	-moz-transition:all .6s ease;
+	-o-transition:all .6s ease;
+	transition:all .6s ease;
+}
+
+.themes #theme_3 .description{
+	margin-top:0px;
+	width:172px;
+	background:#000;
+	opacity:0.7;
+	height:0px;
+	-webkit-transition:all .8s ease;
+	-moz-transition:all .8s ease;
+	-o-transition:all .8s ease;
+	transition:all .8s ease;
+}
+
+.themes #theme_3:hover > .description{
+	height:400px;
+	-webkit-transition:all .8s ease;
+	-moz-transition:all .8s ease;
+	-o-transition:all .8s ease;
+	transition:all .8s ease;
+}
+
+.themes #theme_5 .description{
+	height:400px;
+	width:172px;
+	background-color:#000;
+	opacity:0.7;
+	margin-top:400px;
+	
+	-webkit-transition:all .8s ease;
+	-moz-transition:all .8s ease;
+	-o-transition:all .8s ease;
+	transition:all .8s ease;
+}
+
+.themes #theme_5:hover > .description{
+	margin-top:0px;
+	-webkit-transition:all .8s ease;
+	-moz-transition:all .8s ease;
+	-o-transition:all .8s ease;
+	transition:all .8s ease;
+}
+
+.themes #theme_6 .description{
+	height:150px;
+	width:0px;
+	background-color:#000;
+	opacity:0.7;
+	-webkit-transition:all .6s ease;
+	-moz-transition:all .6s ease;
+	-o-transition:all .6s ease;
+	transition:all .6s ease;
+}
+
+.themes #theme_6:hover > .description{
+	width:400px;
+	-webkit-transition:all .6s ease;
+	-moz-transition:all .6s ease;
+	-o-transition:all .6s ease;
+	transition:all .6s ease;
+}
+
+.themes #theme_7 .description{
+	height:0px;
+	width:400px;
+	background-color:#000;
+	opacity:0.7;
+	margin-top:0px;
+	
+	-webkit-transition:all .6s ease;
+	-moz-transition:all .6s ease;
+	-o-transition:all .6s ease;
+	transition:all .6s ease;
+}
+
+.themes #theme_7:hover > .description{
+	height:150px;
+	-webkit-transition:all .6s ease;
+	-moz-transition:all .6s ease;
+	-o-transition:all .6s ease;
+	transition:all .6s ease;
+}

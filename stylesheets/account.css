@@ -1,0 +1,71 @@
+@font-face{
+	font-family:Calibri;
+	src:url(fonts/calibri.ttf);
+}
+
+
+@font-face{
+	font-family:Quicksand;
+	src:url(fonts/Quicksand-Regular.otf);
+}
+
+#container #idea_head{
+	font-family:Quicksand;
+	font-size:2.3em;
+}
+
+#details{
+	margin-top:30px;
+	font-family:Calibri;
+	font-size:1.3em;
+}
+
+#details span{
+	font-size:1.6em;
+}
+
+#ideaBar{
+	position:relative;
+	margin-top:20px;
+	border-radius:5px;
+	width:730px;
+	min-width:600px;
+	height:135px;
+	padding:20px;
+}
+
+
+#container #ideaBar #idea {
+	display:inline-block;
+	padding:10px;
+	margin-left:10px;
+	min-width: 165px;
+	height:115px;
+	color:#FFF;
+	font-family:Calibri;
+	font-size:21px;
+	border: 2px solid #FFF;
+	border-radius: 5px;
+	cursor:pointer;
+}
+
+#container #ideaBar #idea:hover{
+	background-color:#282828;
+	-webkit-transition:all .8s ease;
+	-moz-transition:all .8s ease;
+	-ms-transition:all .8s ease;
+	-o-transition:all .8s ease;
+	transition:all .8s ease;
+}
+
+#idea span{
+	color:#f2e113;
+	font-size:25px;
+	font-weight:bolder;
+}
+
+#contact_thinkr{
+	font-family:Calibri;
+	font-size:1.3em;
+	margin-top:30px;
+}

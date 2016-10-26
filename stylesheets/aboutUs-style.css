@@ -1,0 +1,250 @@
+
+@font-face{
+	font-family:Raleway;
+	src:url(fonts/Raleway-Regular.otf);
+}
+
+@font-face{
+	font-family:Calibri;
+	src:url(fonts/calibri.ttf);
+}
+
+.aboutUs{
+	margin-top:120px;
+	text-align:justify;
+	padding:15px;
+	width:88%;
+	min-width:800px;
+	color:#282828;
+}
+
+.line{
+	margin-top:12px;
+	width:88%;
+	min-width:730px;
+	border-bottom:3px solid #282828;
+}
+
+.heading{
+	min-width:700px;
+	padding-bottom:70px;
+	font-size:2.4em;
+	font-family:Raleway;
+}
+
+.aboutUs p{
+	font-family:Calibri;
+	font-size:1.28em;
+	display: block;
+	
+	-webkit-margin-before: 10px;
+	-webkit-margin-after: 10px;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	
+	
+	-moz-margin-before: 10px;
+	-moz-margin-after: 10px;
+	-moz-margin-start: 0px;
+	-moz-margin-end: 0px;
+	
+	
+	-ms-margin-before: 10px;
+	-ms-margin-after: 10px;
+	-ms-margin-start: 0px;
+	-ms-margin-end: 0px;
+	
+	
+	-o-margin-before: 10px;
+	-o-margin-after: 10px;
+	-o-margin-start: 0px;
+	-o-margin-end: 0px;
+
+}
+
+.team{
+	margin-top: 50px;
+	text-align:justify;
+	padding:15px;
+	padding-bottom:60px;
+	width:88%;
+	min-width:730px;
+	color:#282828;
+}
+
+.members{
+	width:730px;
+	min-width:730px;
+}
+
+.mem_info{
+	max-width:730px;
+	min-width:730px;
+	height:160px;
+	margin-top:35px;
+}
+
+#member_1 .mem_img{
+	background:url(team/ishan.jpg);
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-ms-background-size:cover;
+	-o-background-size:cover;
+}
+#member_2 .mem_img{
+	background:url(team/sharique.jpg);
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-ms-background-size:cover;
+	-o-background-size:cover;
+}
+#member_3 .mem_img{
+	background:url(team/divyesh.jpg);
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-ms-background-size:cover;
+	-o-background-size:cover;
+}
+#member_4 .mem_img{
+	background:url(team/abeer.jpg);
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-ms-background-size:cover;
+	-o-background-size:cover;
+}
+#member_5 .mem_img{
+	background:url(team/kunal.jpg);
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-ms-background-size:cover;
+	-o-background-size:cover;
+}
+#member_6 .mem_img{
+	background:url(team/ajinkya.jpg);
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-ms-background-size:cover;
+	-o-background-size:cover;
+}
+#member_7 .mem_img{
+	background:url(team/kabir.jpg);
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-ms-background-size:cover;
+	-o-background-size:cover;
+}
+#member_8 .mem_img{
+	background:url(team/archan.jpg);
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-ms-background-size:cover;
+	-o-background-size:cover;
+}
+#member_9 .mem_img{
+	background:url(team/vinshi.jpg);
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-ms-background-size:cover;
+	-o-background-size:cover;
+}
+
+#member_10 .mem_img{
+	background:url(team/abbas.jpg);
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-ms-background-size:cover;
+	-o-background-size:cover;
+}
+
+.mem_info .mem_name{
+	font-family:Raleway;
+	font-size:25px;
+	padding:10px;
+	border-radius: 7px 0px 0px 7px;
+	border-left:2.5px solid #282828;
+	border-top:2.5px solid #282828;
+	border-bottom:2.5px solid #282828;
+	float:left;
+	text-align:right;
+	width:237.5px;
+	height:135px;
+	background-color:#ffffff;
+}
+
+.mem_info .mem_img{
+	margin-left:10px;
+	border-radius: 7px;
+	float:left;
+	width:160px;
+	height:160px;
+	background-color:#09F;
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-ms-background-size:cover;
+	-o-background-size:cover;
+}
+
+.mem_info .mem_des{
+	float:left;
+	font-family:Raleway;
+	font-size:25px;
+	text-align:left;
+	padding:10px;
+	margin-left:10px;
+	width:267.5px;
+	height:135px;
+	border-radius: 0px 7px 7px 0px;
+	border-right:2.5px solid #282828;
+	border-top:2.5px solid #282828;
+	border-bottom:2.5px solid #282828;
+}
+
+
+#footer {
+	position:absolute;
+	height:135px;
+	width:100%;
+	min-width:1100px;
+	overflow:hidden;
+	background-color:#282828;
+}
+
+
+#footer #details {
+	float:right;
+	text-align:right;
+	margin-right:20px;
+	margin-top:-69px;
+	color:#FFF;
+	font-family:"Century Gothic";
+	font-size:18px;
+}
+
+#footer #copyright {
+	text-align:center;
+	margin-top:90px;
+	color:#FFF;
+	width:290px;
+	font-family:"Century Gothic";
+	font-size:18px;
+}
+
+#footer #thinkr {
+	float:left;
+	margin-left:20px;
+	margin-top:60px;
+	color:#FFF;
+	font-family:MammaGamma;
+	font-size:4.2em;
+}
